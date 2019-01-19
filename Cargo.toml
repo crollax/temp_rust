@@ -1,0 +1,19 @@
+[package]
+name = "temp_rust"
+version = "0.1.0"
+authors = ["Charles Roland <croland@costar.com>"]
+edition = "2018"
+
+[dependencies]
+rocket = "0.4.0"
+rocket_codegen = "*"
+
+[dependencies.rocket_contrib]
+version = "0.4.0-rc.2" # or use * 
+default-features = false
+features = ["handlebars_templates", "tera_templates"]
+
+[dependencies.rusqlite]
+version = "*"
+default-features = false
+features = ["bundled"]

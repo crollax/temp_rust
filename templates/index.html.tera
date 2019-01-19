@@ -1,0 +1,10 @@
+{% extends "base" %}
+
+{% block index %}
+    <h1 style="margin: 10px;">Apts Research</h1>
+    <p style="margin: 10px;">
+        {# Let's explore what we can do with
+        <a href="https://rocket.rs">Rocket</a> and
+        <a href="https://www.rust-lang.org">Rust</a> #}
+    </p>
+{% endblock %} 
